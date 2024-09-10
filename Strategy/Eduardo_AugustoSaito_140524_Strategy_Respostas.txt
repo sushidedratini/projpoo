@@ -1,0 +1,11 @@
+• 18.2 Qual a diferença entre Strategy e State?
+Como tratar o caso dos estados ou estratégias nulas?
+Qual padrão resolve isso?
+
+    Ambos os padrões possuem o mesmo diagrama, portanto a única diferença é na forma que são
+    executados. Para o Strategy, existem condições para alguma estratégia ser executada, já
+    para o State, apenas verifica-se o estado atual do objeto para executar algo.
+
+    O padrão que resolve o caso de Estratégias Nulas é o 'Null Object Design Pattern', onde
+    se cria um objeto com nome Nulo, que implementa as mesmas funções da interface pai, mas 
+    não executa nenhum código ou apenas exibe uma mensagem genérica.

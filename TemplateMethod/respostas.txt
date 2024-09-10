@@ -1,0 +1,14 @@
+Factory Method vs. Abstract Factory:
+    O  Factory Method define um método para criar objetos, mas permite que as subclasses decidam qual classe 
+    instanciar, foca em uma única família de produtos. Já o Abstract Factory cria uma interface para criar famílias 
+    de objetos relacionados ou dependentes sem especificar suas classes concretas. Foca em várias famílias de produtos.
+
+Builder vs. Chain of Responsibility:
+    O Builder constrói objetos complexos passo a passo, permitindo que você crie diferentes representações de um 
+    objeto usando o mesmo processo. Já o Chain of Responsibility passa uma solicitação por uma cadeia de 
+    manipuladores até que um deles a processe, permitindo a separação entre o remetente e o receptor da solicitação.
+
+Factory Method vs. Façade:
+    O Factory Method efine um método para criação de objetos em subclasses, delegando a responsabilidade de 
+    instanciar a uma classe específica. Já o Façade fornece uma interface simplificada para um subsistema 
+    complexo, escondendo sua complexidade e expondo apenas as funcionalidades essenciais.
